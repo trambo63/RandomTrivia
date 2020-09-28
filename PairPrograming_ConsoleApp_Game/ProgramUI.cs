@@ -11,7 +11,7 @@ namespace PairPrograming_ConsoleApp_Game
 {
     public class ProgramUI
     {
-        Score myAnswer = new Score();
+        Score myScore = new Score();
         public void Run()
         {
             RunMenu();
@@ -22,21 +22,21 @@ namespace PairPrograming_ConsoleApp_Game
             bool keepThinking = true;
             do 
             {
-                if (myAnswer.GameScore <= -10)
+                if (myScore.GameScore <= -10)
                 {
                     Console.Clear();
                     Console.WriteLine("Game Over!");
                     Console.WriteLine("Press any key to exit..............");
                     keepThinking = false;
                 }
-                if (myAnswer.GameScore >= 50)
+                if (myScore.GameScore >= 50)
                 {
                     Console.Clear();
                     Console.WriteLine("You Win!");
                     Console.WriteLine("Press any key to exit..............");
                     keepThinking = false;
                 }
-                myAnswer.PrintScore();
+                myScore.PrintScore();
                 Console.WriteLine("Welcome to Random Trivia");
                 Console.WriteLine("Reach 50 points and you win, -10 and Game Over \n");
                 Console.WriteLine("Enter the number of the Question you want to answer: \n" +
@@ -52,7 +52,6 @@ namespace PairPrograming_ConsoleApp_Game
                         Console.WriteLine("Which element, previously used in the production of felt, lead to the expression 'mad as a hatter'? \n");
                         Console.WriteLine("Write you'r answer bellow and pres enter.............");
                         string response1 = Console.ReadLine();
-                        //string answer = myAnswer.GetAnswer1();
                         string answer1 = "Mercury";
                         if (response1.ToLower() == answer1.ToLower())
                         {
@@ -60,7 +59,7 @@ namespace PairPrograming_ConsoleApp_Game
                             Console.ForegroundColor = ConsoleColor.DarkGreen;
                             Console.WriteLine("+10");
                             Console.ResetColor();
-                            myAnswer.CorrectAnswer();
+                            myScore.CorrectAnswer();
                             Console.ReadKey();
                         }
                         else
@@ -69,7 +68,7 @@ namespace PairPrograming_ConsoleApp_Game
                             Console.ForegroundColor = ConsoleColor.DarkRed;
                             Console.WriteLine("-10");
                             Console.ResetColor();
-                            myAnswer.IncorrectAnswer();
+                            myScore.IncorrectAnswer();
                             Console.ReadKey();
                         }
                         Console.Clear();
@@ -79,7 +78,6 @@ namespace PairPrograming_ConsoleApp_Game
                         Console.WriteLine("In Canada, what is the national governing body for golf? \n");
                         Console.WriteLine("Write you'r answer bellow and pres enter.............");
                         string response2 = Console.ReadLine();
-                        //string answer = myAnswer.GetAnswer1();
                         string answer2 = "Golf Canada";
                         if (response2.ToLower() == answer2.ToLower())
                         {
@@ -87,7 +85,7 @@ namespace PairPrograming_ConsoleApp_Game
                             Console.ForegroundColor = ConsoleColor.DarkGreen;
                             Console.WriteLine("+10");
                             Console.ResetColor();
-                            myAnswer.CorrectAnswer();
+                            myScore.CorrectAnswer();
                             Console.ReadKey();
                         }
                         else
@@ -96,7 +94,7 @@ namespace PairPrograming_ConsoleApp_Game
                             Console.ForegroundColor = ConsoleColor.DarkRed;
                             Console.WriteLine("-10");
                             Console.ResetColor();
-                            myAnswer.IncorrectAnswer();
+                            myScore.IncorrectAnswer();
                             Console.ReadKey();
                         }
                         Console.Clear();
@@ -106,7 +104,6 @@ namespace PairPrograming_ConsoleApp_Game
                         Console.WriteLine("What is the name of the final course in all 'Mario Kart' videogames? \n");
                         Console.WriteLine("Write you'r answer bellow and pres enter.............");
                         string response3 = Console.ReadLine();
-                        //string answer = myAnswer.GetAnswer1();
                         string answer3 = "Rainbow Road";
                         if (response3.ToLower() == answer3.ToLower())
                         {
@@ -114,7 +111,7 @@ namespace PairPrograming_ConsoleApp_Game
                             Console.ForegroundColor = ConsoleColor.DarkGreen;
                             Console.WriteLine("+10");
                             Console.ResetColor();
-                            myAnswer.CorrectAnswer();
+                            myScore.CorrectAnswer();
                             Console.ReadKey();
                         }
                         else
@@ -123,7 +120,7 @@ namespace PairPrograming_ConsoleApp_Game
                             Console.ForegroundColor = ConsoleColor.DarkRed;
                             Console.WriteLine("-10");
                             Console.ResetColor();
-                            myAnswer.IncorrectAnswer();
+                            myScore.IncorrectAnswer();
                             Console.ReadKey();
                         }
                         Console.Clear();
