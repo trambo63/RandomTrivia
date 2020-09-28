@@ -33,7 +33,13 @@ namespace PairPrograming_ConsoleApp_Game
 
         public void PrintScore()
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            if (GameScore < 0)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+            }
             Console.WriteLine($"You'r Score: {GameScore}");
+            Console.ResetColor();
         }
     }
 }

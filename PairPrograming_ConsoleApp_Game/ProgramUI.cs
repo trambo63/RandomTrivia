@@ -37,7 +37,8 @@ namespace PairPrograming_ConsoleApp_Game
                     keepThinking = false;
                 }
                 myAnswer.PrintScore();
-                Console.WriteLine("Welcome to Random Trivia \n");
+                Console.WriteLine("Welcome to Random Trivia");
+                Console.WriteLine("Reach 50 points and you win, -10 and Game Over \n");
                 Console.WriteLine("Enter the number of the Question you want to answer: \n" +
                     "1: Question1 \n" +
                     "2: Question2 \n" +
@@ -56,12 +57,18 @@ namespace PairPrograming_ConsoleApp_Game
                         if (response1.ToLower() == answer1.ToLower())
                         {
                             Console.WriteLine("correct");
+                            Console.ForegroundColor = ConsoleColor.DarkGreen;
+                            Console.WriteLine("+10");
+                            Console.ResetColor();
                             myAnswer.CorrectAnswer();
                             Console.ReadKey();
                         }
                         else
                         {
                             Console.WriteLine("incorrect");
+                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                            Console.WriteLine("-10");
+                            Console.ResetColor();
                             myAnswer.IncorrectAnswer();
                             Console.ReadKey();
                         }
@@ -77,12 +84,18 @@ namespace PairPrograming_ConsoleApp_Game
                         if (response2.ToLower() == answer2.ToLower())
                         {
                             Console.WriteLine("correct");
+                            Console.ForegroundColor = ConsoleColor.DarkGreen;
+                            Console.WriteLine("+10");
+                            Console.ResetColor();
                             myAnswer.CorrectAnswer();
                             Console.ReadKey();
                         }
                         else
                         {
                             Console.WriteLine("incorrect");
+                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                            Console.WriteLine("-10");
+                            Console.ResetColor();
                             myAnswer.IncorrectAnswer();
                             Console.ReadKey();
                         }
@@ -98,12 +111,18 @@ namespace PairPrograming_ConsoleApp_Game
                         if (response3.ToLower() == answer3.ToLower())
                         {
                             Console.WriteLine("correct");
+                            Console.ForegroundColor = ConsoleColor.DarkGreen;
+                            Console.WriteLine("+10");
+                            Console.ResetColor();
                             myAnswer.CorrectAnswer();
                             Console.ReadKey();
                         }
                         else
                         {
                             Console.WriteLine("incorrect");
+                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                            Console.WriteLine("-10");
+                            Console.ResetColor();
                             myAnswer.IncorrectAnswer();
                             Console.ReadKey();
                         }

@@ -5,3 +5,10 @@ C:\Users\We Can Code IT\source\repos\PairPrograming_ConsoleApp_Game\PairProgrami
 C:\Users\We Can Code IT\source\repos\PairPrograming_ConsoleApp_Game\PairPrograming_ConsoleApp_Game\obj\Debug\PairPrograming_ConsoleApp_Game.csproj.CoreCompileInputs.cache
 C:\Users\We Can Code IT\source\repos\PairPrograming_ConsoleApp_Game\PairPrograming_ConsoleApp_Game\obj\Debug\PairPrograming_ConsoleApp_Game.exe
 C:\Users\We Can Code IT\source\repos\PairPrograming_ConsoleApp_Game\PairPrograming_ConsoleApp_Game\obj\Debug\PairPrograming_ConsoleApp_Game.pdb
+C:\ElevenFiftyProjects\RandomTrivia\PairPrograming_ConsoleApp_Game\bin\Debug\PairPrograming_ConsoleApp_Game.exe.config
+C:\ElevenFiftyProjects\RandomTrivia\PairPrograming_ConsoleApp_Game\bin\Debug\PairPrograming_ConsoleApp_Game.exe
+C:\ElevenFiftyProjects\RandomTrivia\PairPrograming_ConsoleApp_Game\bin\Debug\PairPrograming_ConsoleApp_Game.pdb
+C:\ElevenFiftyProjects\RandomTrivia\PairPrograming_ConsoleApp_Game\obj\Debug\PairPrograming_ConsoleApp_Game.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\RandomTrivia\PairPrograming_ConsoleApp_Game\obj\Debug\PairPrograming_ConsoleApp_Game.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\RandomTrivia\PairPrograming_ConsoleApp_Game\obj\Debug\PairPrograming_ConsoleApp_Game.exe
+C:\ElevenFiftyProjects\RandomTrivia\PairPrograming_ConsoleApp_Game\obj\Debug\PairPrograming_ConsoleApp_Game.pdb
