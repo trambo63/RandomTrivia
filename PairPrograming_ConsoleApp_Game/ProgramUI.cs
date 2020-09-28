@@ -137,7 +137,7 @@ namespace PairPrograming_ConsoleApp_Game
                     Console.ReadKey();
                     keepThinking = false;
                 }
-            }// while (keepThinking);
+            }
 
            
         }
