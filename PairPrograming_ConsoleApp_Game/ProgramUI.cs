@@ -20,22 +20,9 @@ namespace PairPrograming_ConsoleApp_Game
         private void RunMenu()
         {
             bool keepThinking = true;
-            do 
+            while (keepThinking) 
             {
-                if (myScore.GameScore <= -10)
-                {
-                    Console.Clear();
-                    Console.WriteLine("Game Over!");
-                    Console.WriteLine("Press any key to exit..............");
-                    keepThinking = false;
-                }
-                if (myScore.GameScore >= 50)
-                {
-                    Console.Clear();
-                    Console.WriteLine("You Win!");
-                    Console.WriteLine("Press any key to exit..............");
-                    keepThinking = false;
-                }
+                
                 myScore.PrintScore();
                 Console.WriteLine("Welcome to Random Trivia");
                 Console.WriteLine("Reach 50 points and you win, -10 and Game Over \n");
@@ -45,6 +32,7 @@ namespace PairPrograming_ConsoleApp_Game
                     "3: Question3 \n" +
                     "4: Exit");
                 string userInput = Console.ReadLine();
+                Console.Clear();
                 switch (userInput)
                 {
                     case "1":
@@ -133,7 +121,23 @@ namespace PairPrograming_ConsoleApp_Game
                         Console.WriteLine("Invalid");
                         break;
                 }
-            } while (keepThinking);
+
+                if (myScore.GameScore <= -10)
+                {
+                    Console.WriteLine("Game Over!");
+                    Console.WriteLine("Press any key to exit..............");
+                    Console.ReadKey();
+                    keepThinking = false;
+                }
+                if (myScore.GameScore >= 50)
+                {
+                    Console.Clear();
+                    Console.WriteLine("You Win!");
+                    Console.WriteLine("Press any key to exit..............");
+                    Console.ReadKey();
+                    keepThinking = false;
+                }
+            }// while (keepThinking);
 
            
         }
