@@ -38,7 +38,7 @@ namespace PairPrograming_ConsoleApp_Game
                     case "1":
                         Console.Clear();
                         Console.WriteLine("Which element, previously used in the production of felt, lead to the expression 'mad as a hatter'? \n");
-                        Console.WriteLine("Write you'r answer bellow and pres enter.............");
+                        Console.WriteLine("Write you'r answer bellow and press enter.............");
                         string response1 = Console.ReadLine();
                         string answer1 = "Mercury";
                         if (response1.ToLower() == answer1.ToLower())
@@ -64,7 +64,7 @@ namespace PairPrograming_ConsoleApp_Game
                     case "2":
                         Console.Clear();
                         Console.WriteLine("In Canada, what is the national governing body for golf? \n");
-                        Console.WriteLine("Write you'r answer bellow and pres enter.............");
+                        Console.WriteLine("Write you'r answer bellow and press enter.............");
                         string response2 = Console.ReadLine();
                         string answer2 = "Golf Canada";
                         if (response2.ToLower() == answer2.ToLower())
@@ -90,7 +90,7 @@ namespace PairPrograming_ConsoleApp_Game
                     case "3":
                         Console.Clear();
                         Console.WriteLine("What is the name of the final course in all 'Mario Kart' videogames? \n");
-                        Console.WriteLine("Write you'r answer bellow and pres enter.............");
+                        Console.WriteLine("Write you'r answer bellow and press enter.............");
                         string response3 = Console.ReadLine();
                         string answer3 = "Rainbow Road";
                         if (response3.ToLower() == answer3.ToLower())
